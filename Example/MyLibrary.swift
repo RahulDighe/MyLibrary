@@ -22,7 +22,9 @@ class MyLibrary: UIViewController {
         print("commit in new test branch")
     }
     
-
+    func MyTestFunction() -> String {
+        return "MyTestFunction"
+    }
     /*
     // MARK: - Navigation
 

@@ -21,16 +21,15 @@ class MyLibrary: UIViewController {
         // Dispose of any resources that can be recreated.
         print("commit in new test branch")
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func newAddedFun(test:String)  {
+        print("Test fun")
     }
-    */
+    func newAddedFun(test:Int)  {
+        print("Test fun")
+    }
+    func newAddedFun()  {
+        print("Test fun")
+    }
+
 
 }
